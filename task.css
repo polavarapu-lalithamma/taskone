@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke;
+}
+h3{
+    text-transform: unset;
+} 
+#main{
+    margin: 10%;
+    border-radius: 4%;
+    background-color:lightblue;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    margin: 4%;
+    width: 25%;
+    background-color: cyan;
+    border-radius: 5%;
+    text-align: center;
+    border: 1px solid red; 
+    box-shadow: 6px 6px 6px -6px rgb(49,241,11);
+}
+.card:hover{
+    color: lightcyan;
+}
+img{
+    width: 70%;
+    height: 50%;
+    margin: 4%;
+    border-radius: 5%;
+}
